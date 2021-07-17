@@ -2,7 +2,7 @@
   "name": "@blu3r4y/air-datepicker-types",
   "version": "2.0.0",
   "description": "TypeScript definitions for air-datepicker",
-  "homepage": "https://github.com/blu3r4y/air-datepicker.d.ts",
+  "homepage": "https://github.com/blu3r4y/air-datepicker-types",
   "license": "MIT",
   "author": "Mario Kahlhofer <mario.kahlhofer@gmail.com>",
   "keywords": [
@@ -24,10 +24,10 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blu3r4y/air-datepicker.d.ts.git"
+    "url": "git+https://github.com/blu3r4y/air-datepicker-types.git"
   },
   "bugs": {
-    "url": "https://github.com/blu3r4y/air-datepicker.d.ts/issues"
+    "url": "https://github.com/blu3r4y/air-datepicker-types/issues"
   },
   "dependencies": {
     "@types/jquery": "*"
