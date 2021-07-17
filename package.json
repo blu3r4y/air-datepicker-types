@@ -17,7 +17,7 @@
     }
   ],
   "main": "",
-  "typings": "air-datepicker.d.ts",
+  "typings": "index.d.ts",
   "scripts": {},
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/blu3r4y/air-datepicker.d.ts/issues"
+  },
+  "dependencies": {
+    "@types/jquery": "*"
   }
 }

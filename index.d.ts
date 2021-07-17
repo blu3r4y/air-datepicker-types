@@ -1,4 +1,13 @@
-declare interface AirDatepickerOptions {
+/// <reference types="jquery" />
+
+declare global {
+  interface JQuery {
+    datepicker: AirDatepickerStatic;
+    data(type: "datepicker"): AirDatepickerInstance;
+  }
+}
+
+export interface AirDatepickerOptions {
   classes?: string;
   inline?: boolean;
   language?: string | AirDatepickerLanguageInstance;
@@ -59,12 +68,12 @@ declare interface AirDatepickerOptions {
   onRenderCell?: (date: Date, cellType: "day" | "month" | "year") => void;
 }
 
-declare interface AirDatepickerEventObject extends JQueryEventObject {
+export interface AirDatepickerEventObject extends JQuery.Event {
   date: Date;
   format(format?: string): string;
 }
 
-declare interface AirDatepickerLanguageInstance {
+export interface AirDatepickerLanguageInstance {
   days: string[];
   daysShort: string[];
   daysMin: string[];
@@ -77,7 +86,7 @@ declare interface AirDatepickerLanguageInstance {
   firstDay: number;
 }
 
-declare interface AirDatepickerInstance {
+export interface AirDatepickerInstance {
   selectedDates: Date[];
   show(): AirDatepickerInstance;
   hide(): AirDatepickerInstance;
@@ -92,18 +101,7 @@ declare interface AirDatepickerInstance {
   destroy(): void;
 }
 
-declare interface AirDatepickerStatic {
+export interface AirDatepickerStatic {
   (): JQuery;
   (options: AirDatepickerOptions): JQuery;
-}
-
-declare interface JQuery {
-  datepicker: AirDatepickerStatic;
-  data(type: "datepicker"): AirDatepickerInstance;
-}
-
-declare interface JQueryEventObject {}
-
-declare interface JQuery {
-  datepicker: AirDatepickerStatic;
 }
