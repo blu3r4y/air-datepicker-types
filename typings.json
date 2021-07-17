@@ -1,10 +1,10 @@
 {
   "name": "air-datepicker",
   "main": "air-datepicker.d.ts",
-  "version": "1.1.1",
-  "author": "Joshua Harms <joshua@nozzlegear.com>",
-  "description": "A Typescript/Typings definition for air-datepicker.",
+  "version": "1.2.0",
+  "author": "Mario Kahlhofer <mario.kahlhofer@gmail.com>",
+  "description": "TypeScript type definitions for air-datepicker",
+  "homepage": "https://github.com/blu3r4y/air-datepicker.d.ts",
   "ambientDevDependencies": {},
-  "dependencies": {
-  }
+  "dependencies": {}
 }

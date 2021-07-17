@@ -1,20 +1,29 @@
 {
-  "name": "@types/air-datepicker",
-  "version": "1.1.1",
-  "description": "A Typescript/Typings definition for air-datepicker.",
-  "main": "air-datepicker.d.ts",
+  "name": "@blu3r4y/air-datepicker-types",
+  "version": "2.0.0",
+  "description": "TypeScript definitions for air-datepicker",
+  "homepage": "https://github.com/blu3r4y/air-datepicker.d.ts",
+  "license": "MIT",
+  "author": "Mario Kahlhofer <mario.kahlhofer@gmail.com>",
+  "contributors": [
+    {
+      "name": "nicovil",
+      "url": "https://github.com/nicovil"
+    },
+    {
+      "name": "Joshua Harms",
+      "email": "joshua@nozzlegear.com",
+      "url": "https://github.com/nozzlegear"
+    }
+  ],
+  "main": "",
   "typings": "air-datepicker.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blu3r4y/air-datepicker.d.ts.git"
   },
-  "author": "Joshua Harms <joshua@nozzlegear.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/blu3r4y/air-datepicker.d.ts/issues"
-  },
-  "homepage": "https://github.com/blu3r4y/air-datepicker.d.ts#readme"
+  }
 }
