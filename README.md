@@ -5,28 +5,29 @@
 
 TypeScript definitions for [air-datepicker](https://www.npmjs.com/package/air-datepicker)
 
-## Installation
-
-Install with alias `@types/air-datepicker` so that types are linked with your `air-datepicker` package.
-
-```shell
+```bash
 # the npm way
-npm install -D @types/air-datepicker@npm:@blu3r4y/air-datepicker-types
+npm install -D @blu3r4y/air-datepicker-types
 
 # the yarn way
-yarn add -D @types/air-datepicker@npm:@blu3r4y/air-datepicker-types
+yarn add -D @blu3r4y/air-datepicker-types
 ```
 
 ## Usage
 
-Don't forget to also import the `air-datepicker` package along with the types.
+Explicitly import the types from this package.
 
 ```typescript
-import "air-datepicker";                                 // artifacts 
-import { AirDatepickerInstance } from "air-datepicker";  // types
+import "air-datepicker";
+import { AirDatepickerInstance } from "@blu3r4y/air-datepicker-types";
 ```
 
-If you didn't install the package with an alias, you must import from `@blu3r4y/air-datepicker-types` instead.
+If you want to import everything directly from `air-datepicker`, you could [alias](https://docs.npmjs.com/cli/v7/commands/npm-install) the package under `@types/air-datepicker` instead.
+However, I wouldn't recommend it because the versions aren't tracked properly anymore then.
+
+```bash
+npm install -D @types/air-datepicker@npm:@blu3r4y/air-datepicker-types
+```
 
 ### Exported Types
 
