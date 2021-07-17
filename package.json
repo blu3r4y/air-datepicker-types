@@ -5,6 +5,9 @@
   "homepage": "https://github.com/blu3r4y/air-datepicker.d.ts",
   "license": "MIT",
   "author": "Mario Kahlhofer <mario.kahlhofer@gmail.com>",
+  "keywords": [
+    "air-datepicker"
+  ],
   "contributors": [
     {
       "name": "nicovil",
