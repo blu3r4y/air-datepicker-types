@@ -99,6 +99,7 @@ export interface AirDatepickerInstance {
   update(options: AirDatepickerOptions): AirDatepickerInstance;
   formatDate(format: string, date: Date): string;
   destroy(): void;
+  el: HTMLInputElement;
 }
 
 export interface AirDatepickerStatic {
