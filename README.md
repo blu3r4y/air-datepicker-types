@@ -1,7 +1,7 @@
 # TypeScript definitions for [air-datepicker](https://www.npmjs.com/package/air-datepicker)
 
 [![npm Version](https://img.shields.io/npm/v/@blu3r4y/air-datepicker-types?style=for-the-badge)](https://www.npmjs.com/package/@blu3r4y/air-datepicker-types)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/blu3r4y/air-datepicker-types/publish-npm-package?style=for-the-badge)](https://github.com/blu3r4y/air-datepicker-types/actions/workflows/publish-npm-package.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/blu3r4y/air-datepicker-types/publish-npm-package.yml?style=for-the-badge)](https://github.com/blu3r4y/air-datepicker-types/actions/workflows/publish-npm-package.yml)
 
 ```bash
 # the npm way
