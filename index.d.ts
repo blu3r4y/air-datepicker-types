@@ -55,7 +55,7 @@ export interface AirDatepickerOptions {
 
   onSelect?: (
     formattedDate: string,
-    date: Date,
+    date:  Date | Array<Date>,
     inst: AirDatepickerInstance
   ) => void;
   onChangeMonth?: (month: number, year: number) => void;
@@ -99,6 +99,7 @@ export interface AirDatepickerInstance {
   update(options: AirDatepickerOptions): AirDatepickerInstance;
   formatDate(format: string, date: Date): string;
   destroy(): void;
+  el: HTMLInputElement;
 }
 
 export interface AirDatepickerStatic {
